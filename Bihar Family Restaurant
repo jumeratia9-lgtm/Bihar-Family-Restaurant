@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bihar Family Restaurant</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f6f8; margin: 0; padding: 15px; color: #333; }
+        .header { text-align: center; background-color: #b71c1c; color: white; padding: 20px; border-radius: 12px; margin-bottom: 20px; }
+        .header h1 { margin: 0 0 5px 0; font-size: 24px; }
+        .header p { margin: 3px 0; font-size: 14px; opacity: 0.9; }
+        .category { font-size: 18px; font-weight: bold; color: #b71c1c; margin-top: 25px; border-bottom: 2px solid #b71c1c; padding-bottom: 5px; }
+        .item { display: flex; justify-content: space-between; background: white; padding: 12px 15px; margin: 8px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .item-name { font-weight: 500; }
+        .price { font-weight: bold; color: #2e7d32; }
+        .info-card { background: #ffebee; border-left: 4px solid #b71c1c; padding: 12px; margin-top: 25px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Bihar Family Restaurant</h1>
+        <p>Pure Veg & Non-Veg • Family Restaurant</p>
+        <p>⏰ 10:00 AM – 10:00 PM</p>
+    </div>
+
+    <div class="category">⭐ Special Offers</div>
+    <div class="item"><span class="item-name">Family Combo<br><small style="color:#666;">Chicken Biryani + Chicken Chilli + 2 Cold Drinks</small></span><span class="price">₹499</span></div>
+    <div class="item"><span class="item-name">Veg Combo<br><small style="color:#666;">Veg Biryani + Paneer Chilli + 2 Cold Drinks</small></span><span class="price">₹349</span></div>
+
+    <div class="category">🍗 Chicken & Non-Veg</div>
+    <div class="item"><span class="item-name">Chicken Biryani</span><span class="price">₹180</span></div>
+    <div class="item"><span class="item-name">Chicken Handi</span><span class="price">₹260</span></div>
+    <div class="item"><span class="item-name">Chicken Curry</span><span class="price">₹220</span></div>
+    <div class="item"><span class="item-name">Chicken Kadhai</span><span class="price">₹240</span></div>
+    <div class="item"><span class="item-name">Chicken Tikka</span><span class="price">₹220</span></div>
+    <div class="item"><span class="item-name">Chicken Chilli</span><span class="price">₹200</span></div>
+    <div class="item"><span class="item-name">Chicken Fried Rice</span><span class="price">₹170</span></div>
+    <div class="item"><span class="item-name">Egg Curry</span><span class="price">₹140</span></div>
+    <div class="item"><span class="item-name">Egg Fried Rice</span><span class="price">₹130</span></div>
+
+    <div class="category">🍚 Rice & Biryani</div>
+    <div class="item"><span class="item-name">Veg Biryani</span><span class="price">₹130</span></div>
+    <div class="item"><span class="item-name">Jeera Rice</span><span class="price">₹100</span></div>
+    <div class="item"><span class="item-name">Plain Rice</span><span class="price">₹80</span></div>
+    <div class="item"><span class="item-name">Veg Fried Rice</span><span class="price">₹120</span></div>
+    <div class="item"><span class="item-name">Paneer Fried Rice</span><span class="price">₹150</span></div>
+
+    <div class="category">🥘 Main Course</div>
+    <div class="item"><span class="item-name">Dal Tadka</span><span class="price">₹100</span></div>
+    <div class="item"><span class="item-name">Dal Fry</span><span class="price">₹90</span></div>
+    <div class="item"><span class="item-name">Mix Veg</span><span class="price">₹130</span></div>
+    <div class="item"><span class="item-name">Aloo Jeera</span><span class="price">₹100</span></div>
+    <div class="item"><span class="item-name">Paneer Butter Masala</span><span class="price">₹190</span></div>
+    <div class="item"><span class="item-name">Kadhai Paneer</span><span class="price">₹180</span></div>
+    <div class="item"><span class="item-name">Shahi Paneer</span><span class="price">₹190</span></div>
+
+    <div class="category">🫓 Roti & Naan</div>
+    <div class="item"><span class="item-name">Tawa Roti</span><span class="price">₹12</span></div>
+    <div class="item"><span class="item-name">Butter Roti</span><span class="price">₹18</span></div>
+    <div class="item"><span class="item-name">Plain Naan</span><span class="price">₹35</span></div>
+    <div class="item"><span class="item-name">Butter Naan</span><span class="price">₹45</span></div>
+    <div class="item"><span class="item-name">Garlic Naan</span><span class="price">₹60</span></div>
+
+    <div class="category">🍜 Chinese</div>
+    <div class="item"><span class="item-name">Veg Chowmein</span><span class="price">₹110</span></div>
+    <div class="item"><span class="item-name">Egg Chowmein</span><span class="price">₹130</span></div>
+    <div class="item"><span class="item-name">Chicken Chowmein</span><span class="price">₹170</span></div>
+    <div class="item"><span class="item-name">Veg Manchurian</span><span class="price">₹130</span></div>
+    <div class="item"><span class="item-name">Chicken Chilli</span><span class="price">₹200</span></div>
+    <div class="item"><span class="item-name">Chicken Manchurian</span><span class="price">₹210</span></div>
+
+    <div class="category">🥗 Snacks & Starters</div>
+    <div class="item"><span class="item-name">French Fries</span><span class="price">₹100</span></div>
+    <div class="item"><span class="item-name">Veg Pakora</span><span class="price">₹90</span></div>
+    <div class="item"><span class="item-name">Paneer Pakora</span><span class="price">₹140</span></div>
+    <div class="item"><span class="item-name">Chicken Pakora</span><span class="price">₹170</span></div>
+    <div class="item"><span class="item-name">Paneer Tikka</span><span class="price">₹180</span></div>
+    <div class="item"><span class="item-name">Chicken Tikka</span><span class="price">₹220</span></div>
+
+    <div class="category">🥤 Drinks</div>
+    <div class="item"><span class="item-name">Mineral Water</span><span class="price">₹20</span></div>
+    <div class="item"><span class="item-name">Cold Drink</span><span class="price">₹40</span></div>
+    <div class="item"><span class="item-name">Fresh Lime Soda</span><span class="price">₹60</span></div>
+    <div class="item"><span class="item-name">Lassi</span><span class="price">₹70</span></div>
+    <div class="item"><span class="item-name">Sweet Lassi</span><span class="price">₹70</span></div>
+    <div class="item"><span class="item-name">Masala Chai</span><span class="price">₹30</span></div>
+    <div class="item"><span class="item-name">Cold Coffee</span><span class="price">₹100</span></div>
+
+    <div class="info-card">
+        <strong>📞 सम्पर्क करें:</strong><br>
+        Bihar Family Restaurant<br>
+        Main Market, Bihar<br>
+        फोन: 9XXXXXXXXX
+    </div>
+
+</body>
+</html>
